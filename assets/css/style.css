@@ -1,0 +1,14 @@
+/* Phần 2 tạo base  */
+
+* {
+  box-sizing: border-box;
+}
+/* Biển đổi font-size thành 62.5% để biến đổi 1 rem thành 10 px */
+html {
+  font-size: 62.5%;
+}
+/* Khôi phục lại cở chữ mặc định theo rem */
+body {
+  font-size: 1.6rem;
+}
+/* Kết phần 2 : tạo base */
