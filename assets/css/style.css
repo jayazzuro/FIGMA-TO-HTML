@@ -329,3 +329,61 @@ a {
   color: white;
   opacity: 0.9;
 }
+/* ============================= Feedback =========================== */
+.feed-back {
+  margin: 135px;
+  padding: 96px 0;
+  background: #2e2100;
+}
+.feedback-item {
+  display: flex;
+}
+.feedback-item .info .avata {
+  width: 72px;
+  height: 72px;
+  border-radius: 72px;
+  object-fit: cover;
+}
+.feedback-item .info .member-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42; /* 141.667% */
+}
+.feedback-item .info .desc {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+}
+.feedback-item .info .dots {
+  display: flex;
+  margin-top: 28px;
+  gap: 6px;
+}
+.feedback-item .dot {
+  margin-top: 28px;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+  cursor: pointer;
+}
+.feedback-item .content {
+  width: 66%;
+  margin-left: auto;
+}
+.feedback-item blockquote {
+  width: 740px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.54; /* 153.846% */
+}
+.feedback-item .active {
+  background-color: var(--color-font);
+  cursor: default;
+}
