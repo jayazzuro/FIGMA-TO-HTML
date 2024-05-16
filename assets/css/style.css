@@ -83,6 +83,10 @@ a {
   border-radius: 1px;
   background: #171100;
 }
+.header .btn:hover {
+  background-color: var(--color-font);
+  opacity: 0.9;
+}
 .header .btn-sign-up {
   min-width: 114px;
 }
@@ -387,7 +391,7 @@ a {
   background-color: var(--color-font);
   cursor: default;
 }
-/*  =====================<!-- feature -->====================*/
+/*  =====================<!-- feature1 -->====================*/
 /* <!-- Khối Trái --> */
 .feature {
   margin-top: 135px;
@@ -445,6 +449,54 @@ a {
   height: 50px;
 }
 .feature .btn:hover {
+  background-color: var(--color-font);
+  opacity: 0.9;
+}
+/*  =====================<!-- feature2 -->====================*/
+.feature2 {
+  margin-top: 70px;
+  padding: 65px 0;
+}
+.feature2 .body {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.feature2 .images .img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.feature2 .heading {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+  width: 570px;
+}
+.feature2 .desc {
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+  width: 570px;
+  margin: 16px 0 32px;
+}
+.feature2 .btn {
+  width: 137px;
+  height: 50px;
+  border-radius: 26px;
+}
+.feature2 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feature2 .btn:hover {
   background-color: var(--color-font);
   opacity: 0.9;
 }
