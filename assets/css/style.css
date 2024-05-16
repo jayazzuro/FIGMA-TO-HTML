@@ -387,3 +387,64 @@ a {
   background-color: var(--color-font);
   cursor: default;
 }
+/*  =====================<!-- feature -->====================*/
+/* <!-- Khối Trái --> */
+.feature {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+.feature .body {
+  display: flex;
+  justify-content: space-between;
+}
+.feature .body .images {
+  display: flex;
+  gap: 30px;
+}
+.feature .body .images .img {
+  width: 270px;
+  height: 405px;
+  border-radius: 16px;
+
+  object-fit: cover;
+}
+.feature .images .img1 {
+  margin-top: 34px;
+}
+/* <!-- Khối Phải --> */
+.feature .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 41%;
+}
+.feature .content .heading {
+  color: #171100;
+  width: 470px;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+.feature .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+.feature .desc1 {
+  margin-top: 16px;
+}
+.feature .btn {
+  margin-top: 43px;
+  width: 137px;
+  height: 50px;
+}
+.feature .btn:hover {
+  background-color: var(--color-font);
+  opacity: 0.9;
+}
