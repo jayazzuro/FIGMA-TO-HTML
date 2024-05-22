@@ -594,3 +594,74 @@ a {
 .blog .item:hover {
   box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
 }
+/*  =====================<!-- FOOTER -->====================*/
+.footer {
+  background: #2e2100;
+  padding: 96px 135px 0;
+}
+.row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+.footer .row .column {
+  width: 21.6%;
+}
+.footer .row .column:first-child {
+  width: 35%;
+}
+.row .column .desc {
+  max-width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+  padding: 18px 0 18px;
+}
+.footer .row .column .social {
+  display: flex;
+  gap: 18px;
+}
+.row .column .title {
+  display: inline;
+  padding-bottom: 14px;
+  padding-right: 48px;
+  border-bottom: 1px solid #59554b;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+}
+.row .column .list {
+  margin-top: 28px;
+}
+.row .column .list a {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+}
+.row .column .list a:last-child {
+  margin-bottom: 0;
+}
+.row .list strong {
+  color: #fff;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.86; /* 185.714% */
+}
+.end {
+  color: #807d74;
+  padding: 28px 0 28px;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.86; /* 185.714% */
+}
